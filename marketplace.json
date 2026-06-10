@@ -1,0 +1,20 @@
+{
+  "name": "personal-workbench-mirror",
+  "interface": {
+    "displayName": "Personal Workbench Mirror"
+  },
+  "plugins": [
+    {
+      "name": "personal-workbench",
+      "source": {
+        "source": "local",
+        "path": "./plugins/personal-workbench"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
